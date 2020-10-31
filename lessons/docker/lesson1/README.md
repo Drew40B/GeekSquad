@@ -4,15 +4,14 @@ Use Docker container for python dev
 
 ## Steps
 
-### Download cod from git
+### Download code from git
 
-git clone git@github.com:Drew40B/GeekSquad.git
+git clone <https://github.com/Drew40B/GeekSquad.git>
 
 ### Download and test python image
 
-docker run -it --rm --net=host  python /bin/bash
-
-python - verify python running within container
+- docker run -it --rm --net=host  python /bin/bash
+- python _[verify python running within container]_
 
 ### Run python container and mount local code folder
 
@@ -27,4 +26,3 @@ python - verify python running within container
 ### Automate the above steps using docker build
 
  docker docker build  --network=host --tag pythondev:latest .
- 
