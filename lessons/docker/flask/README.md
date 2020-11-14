@@ -1,3 +1,11 @@
 # Intro
 
-Tutorial based upon: https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-flask-application-using-docker-on-ubuntu-18-04
+Based upon: <https://www.digitalocean.com/community/tutorials/how-to-build-and-deploy-a-flask-application-using-docker-on-ubuntu-18-04tart>
+
+## Start
+
+`sudo bash ./start.sh`
+
+OR
+
+`docker-compose up`
