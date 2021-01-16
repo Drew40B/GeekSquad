@@ -10,3 +10,4 @@ Sample for reading config.json files into object
 #very very dirty
 #I've been a bad girl!
 
+#Richard was here too
